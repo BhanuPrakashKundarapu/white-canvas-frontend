@@ -1,0 +1,28 @@
+.page{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    position: absolute;
+    right: 4%;
+    top: 25%;
+    z-index: 2;
+}
+h5{
+    margin-left: -20px;
+}
+.img{
+    height: 50px;
+    width:50px;
+    border-radius: 90px;
+    background-color: antiquewhite;
+}
+#input{
+    display: none;
+}
+.label label{
+    background-color: rgb(237, 237, 243);
+    padding:3px 15px;
+    border-radius: 5px;
+    position: relative;
+    right: 25%;
+}

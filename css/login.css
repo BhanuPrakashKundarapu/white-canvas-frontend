@@ -1,0 +1,65 @@
+.Signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .Signin .Heading h1{
+    color:#002E94;
+    font-weight: 600;
+  }
+  .Signin .Input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 12px;
+  }
+  .Signin .Input-div input{
+    height: 35px;
+    border-radius: 5px;
+    width: 250px;
+    border: 1px solid gray;
+    outline: none;
+  }
+  .Signin .Input-div .span{
+    display: flex;
+    flex-direction:row;
+  }
+  .Signin .Input-div a{
+    text-decoration: none;
+    font-weight:700 ;
+    color: #002E94;
+  }
+  .Signin .Input-div a:hover{
+    cursor: pointer;
+    color: darkcyan;
+  }
+  .Signin .Input-div .login{
+    width: 250px;
+    height: 35px;
+    background-color:#002E94;
+    /* outline: none; */
+    border: 1px solid rgb(5, 5, 5);
+    color:white;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  .Signin .Input-div .submit:hover{
+    border: 3px solid hsl(0, 0%, 50%,0.3);
+    cursor: pointer;
+  }
+  .Signin .Input-div .google img{
+    height: 25px;
+  }
+  .Signin .Input-div .google{
+    width: 250px;
+    height: 35px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: transparent;
+    border: 0.1px solid hsl(0, 0%, 50%,0.2);
+  }
